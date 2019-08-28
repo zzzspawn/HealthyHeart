@@ -13,13 +13,29 @@
         android:layout_height="match_parent"
         android:padding="@dimen/inner_frame_layout_padding"
         app:boxedEdges="all">
+
+        
+
         <ImageView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:src="@drawable/heartlogo"
             android:adjustViewBounds="false" 
-            
         />
+
+        
+        <TextView
+            android:id="@+id/checkText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nothing Has Happened"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="45dp"
+            android:textStyle="bold"
+            android:typeface="normal"
+        />
+        
 
     </FrameLayout>
 </android.support.wear.widget.BoxInsetLayout>
